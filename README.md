@@ -13,7 +13,7 @@
 
 
 ## На данной странице можно просматривать фотографии.
-### Эту работу я выполняла до обучения в Яндекс Практикуме. Планирую улучшить структуру и код, используя знания полученные на курсах.
+### Эту работу я выполняла до обучения в Яндекс Практикуме.
  
 <div align="center">
 <img src="https://sun9-9.userapi.com/impg/FgrzKIMMKAqHL_c-VxJLUPUEVy3rdBjkfvD19Q/R07pIBW-Q5E.jpg?size=1835x859&quality=95&sign=dcf31c1db1624d17ebf775e7b93c0590&type=album" align="center" style="width: 70%" />
