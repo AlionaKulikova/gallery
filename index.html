@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+<link href="gal.css" rel="stylesheet">
+<link href="styles.css" rel="stylesheet">
+<meta charset="utf-8">
+<title> Фотогалерея</title>
+
+<script src="gal.js"></script>
+
+<script type="text/javascript" src="scripts/jquery-1.4.3.min.js"></script>
+	
+
+	<script type="text/javascript" src="./scripts/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+	<script type="text/javascript" src="./scripts/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+	<link rel="stylesheet" type="text/css" href="./scripts/fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+ 	<link rel="stylesheet" href="style.css" />
+ 	<script type="text/javascript" >
+ 		$(document).ready(function() {//загружаем наш код, только после загрузки всей страницы
+ 			$("a.photo").fancybox({//вызываем метод fancybox() для ссылок класса photo
+ 			//пишем опции нужных нам свойств(те, что прописаны в библиотеке fancybox в разделе "API и опции" )
+ 			transitionIn:'elastic',
+ 			transitionOut:'elastic',
+ 			speedIn:500,
+ 			speedOut:500,
+ 			padding:1,
+ 			titlePosition:'over'
+
+ 		});
+
+
+ 		});
+ 		
+ 	</script>>
+</head>
+<body>
+	<h1>Галерея</h1>
+<div class="gallery"  align="center">
+	<a rel="gallery" class="photo" href="big/chasy.jpg" title="Часы"><img src="small/chasy.jpg" width="550" height="309" alt=""></img></a>
+	<a rel="gallery" class="photo" href="big/kasseta.jpg" title="Касета"><img src="small/kasseta.jpg" width="550" height="309" alt=""></img></a>
+	<a rel="gallery" class="photo" href="big/kisti.jpg" title="Кисти"><img src="small/kisti.jpg" width="550" height="309" alt=""></img></a>
+	<a rel="gallery" class="photo" href="big/knigi.jpg" title="Книги"><img src="small/knigi.jpg" width="550" height="309" alt=""></img></a>
+	<a rel="gallery" class="photo" href="big/korabl.jpg" title="Корабли"><img src="small/korabl.jpg" width="550" height="309" alt=""></img></a>
+	<a rel="gallery" class="photo" href="big/luna.jpg" title="Луна"><img src="small/luna.jpg" width="550" height="309" alt=""></img></a>
+	<a rel="gallery" class="photo" href="big/nitki.jpg" title="Нитки"><img src="small/nitki.jpg" width="550" height="309" alt=""></img></a>
+	<a rel="gallery" class="photo" href="big/pesochnye.jpg" title="Песочные часы"><img src="small/pesochnye.jpg" width="550" height="309" alt=""></img></a>
+	<a rel="gallery" class="photo" href="big/ruki.jpg" title="Руки"><img src="small/ruki.jpg" width="550" height="309" alt=""></img></a>
+	<a rel="gallery" class="photo" href="big/shary.jpg" title="Шары"><img src="small/shary.jpg" width="550" height="309" alt=""></img></a>
+	<a rel="gallery" class="photo" href="big/siluet.jpg" title="Силуэт"><img src="small/siluet.jpg" width="550" height="309" alt=""></img></a>
+	<a rel="gallery" class="photo" href="big/skulptura.jpg" title="Скульптура"><img src="small/skulptura.jpg" width="550" height="309" alt=""></img></a>
+	<a rel="gallery" class="photo" href="big/velosiped.jpg" title="Велосипед"><img src="small/velosiped.jpg" width="550" height="309" alt=""></img></a>
+	<a rel="gallery" class="photo" href="big/zabor.jpg" title="Забор"><img src="small/zabor.jpg" width="550" height="309" alt=""></img></a>
+	<a rel="gallery" class="photo" href="big/zontik.jpg" title="Зонтик"><img src="small/zontik.jpg" width="550" height="309" alt=""></img></a>
+	<a rel="gallery" class="photo" href="big/zonty.jpg" title="Зонты"><img src="small/zonty.jpg" width="550" height="309" alt=""></img></a>
+	<a rel="gallery" class="photo" href="big/karty.jpg" title="Карты"><img src="small/karty.jpg" width="550" height="309" alt=""></img></a>
+	<a rel="gallery" class="photo" href="big/vremya.jpg" title="Время"><img src="small/vremya.jpg" width="550" height="309" alt=""></img></a>
+	
+</div>
+	</body>
+</html>
